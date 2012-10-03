@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place">
+        <item>Home</item>
+        <item>Car</item>
+        <item>Shop</item>
+        <item>Pub</item>
+        <item>Girlfriend</item>
+        <item>Restaurant</item>
+        <item>Exgirlfriend</item>
+        <item>Cats</item>
+        <item>Others</item>
+    </string-array>
+    
+    
+</resources>

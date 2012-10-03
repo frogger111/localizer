@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/removeall"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:layout_margin="8dip" android:textColor="#555" android:textStyle="bold" android:typeface="sans" android:gravity="center_vertical|center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:id="@+id/button1_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_margin="8dip"
+            android:background="@drawable/btn_imdrunk_home"
+            android:text="@string/yes"
+            android:textColor="#fff"
+            android:textStyle="bold" android:typeface="sans"/>
+
+        <Button
+            android:id="@+id/button2_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:text="@string/no" android:textColor="#fff" android:layout_marginBottom="8dip" android:layout_marginLeft="8dip" android:layout_marginRight="8dip" android:layout_marginTop="8dip" android:background="@drawable/btn_imdrunk_home" android:typeface="sans"/>
+    </LinearLayout>
+
+</LinearLayout>

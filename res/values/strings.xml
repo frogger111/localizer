@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BackToHomeActivity!</string>
+    <string name="app_name">Back To Home</string>
+    <string name="desc">Description(optional)</string>
+    <string name="placename">Mark point</string>
+	<string name="imdrunk">I"&#39;"m so drunk and I"&#39;"m going to my"&#8230;"</string>
+	<string name="imgoingto">I"&#39;"m going to my"&#8230;" </string>
+	<string name="imgoing">I"&#39;"m going to"&#8230;" </string>
+	<string name="empty">empty</string>
+	<string name="home">Home</string>
+	<string name="save">Save</string>
+	<string name="girlfriend">Girlfriend</string>
+	<string  name="ex">Exgirlfriend</string>
+	<string name="definitely">Definitely YES</string>
+	<string name="removeall">Remove all points?</string>
+	<string name="removehome">Replace home point?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="title_ex">You are going to your ex.Are you sure?</string>
+	<string name="thanks">Thanks</string>
+	<string name="goodluck">Goodluck</string>
+	<string name="NameDefault">Place name(optional)</string>
+	<string name="RadioAuto">Set point automaticaly</string>
+	<string name="RadioManual">Set point manualy</string>
+	<string name="satelite">Satelite</string>
+	<string name="share">Share</string>
+	<string name="DescriptionDefault">Description(optional)</string>
+</resources>

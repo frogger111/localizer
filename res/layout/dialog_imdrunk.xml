@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#09adb9"
+        android:padding="5dp" >
+
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fff"
+            android:paddingBottom="25dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/imdrunk"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#555" 
+                        android:textStyle="bold"
+        android:typeface="sans"/>
+
+
+            <Button
+                android:id="@+id/button_imdrunk_home"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView1"
+                android:background="@drawable/btn_imdrunk_home" android:layout_marginBottom="8dip" android:layout_marginTop="8dip"/>
+
+
+
+
+            <Button
+                android:id="@+id/button_imdrunk_girlfriend"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button_imdrunk_home"
+                android:background="@drawable/btn_imdrunk_home" android:layout_marginBottom="8dip" android:layout_marginTop="8dip"/>
+
+
+
+            <Button
+                android:id="@+id/button_imdrunk_ex"
+                android:layout_width="wrap_content"
+                android:layout_height="64dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button_imdrunk_girlfriend"
+                android:background="@drawable/btn_ex" android:layout_marginBottom="8dip" android:layout_marginTop="8dip"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button_imdrunk_home"
+                android:layout_alignLeft="@+id/button_imdrunk_home"
+                android:layout_alignRight="@+id/button_imdrunk_home"
+                android:layout_alignTop="@+id/button_imdrunk_home"
+                android:text="@string/home"
+                android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical|center_horizontal" android:typeface="sans"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button_imdrunk_girlfriend"
+                android:layout_alignLeft="@+id/button_imdrunk_girlfriend"
+                android:layout_alignRight="@+id/button_imdrunk_girlfriend"
+                android:layout_alignTop="@+id/button_imdrunk_girlfriend"
+                android:text="@string/girlfriend"
+                android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical|center_horizontal" android:typeface="sans"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button_imdrunk_ex"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/button_imdrunk_ex"
+                android:layout_alignTop="@+id/button_imdrunk_ex"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/ex"
+                android:textAppearance="?android:attr/textAppearanceMedium" android:typeface="sans" android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+   </RelativeLayout>
+
+</RelativeLayout>
